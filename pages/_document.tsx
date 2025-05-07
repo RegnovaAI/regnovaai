@@ -1,10 +1,10 @@
+// pages/_document.tsx
 import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html>
       <Head>
-        {/* ✅ Only one Plausible script with correct domain */}
         <script
           async
           defer
