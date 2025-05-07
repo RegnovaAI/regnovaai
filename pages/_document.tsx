@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* ✅ Plausible Analytics script */}
+        {<script defer data-domain="regnovaai.com" src="https://plausible.io/js/script.js"></script>}
         <script
           async
           defer
