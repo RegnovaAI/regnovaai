@@ -6,7 +6,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* Google Analytics */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-3C3TE5ZSQN"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
