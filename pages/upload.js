@@ -1,3 +1,28 @@
+import Script from 'next/script';
+import Script from 'next/script'; // ✅ Import Script from next
+
+export default function Home() {
+  return (
+    <>
+      {/* ✅ Add Plausible analytics script */}
+      <Script
+        async
+        defer
+        data-domain="regnovaai.vercel.app" // 🔁 Use your real domain
+        src="https://plausible.io/js/plausible.js"
+      />
+
+      {/* Your actual page content */}
+      <main>
+        <h1>Welcome to RegnovaAI</h1>
+        <p>Your trusted compliance assistant powered by AI.</p>
+      </main>
+    </>
+  );
+}
+
+
+
 // 'use client';
 
 // import { useState, useCallback } from 'react';
