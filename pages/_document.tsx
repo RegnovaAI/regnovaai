@@ -1,5 +1,3 @@
-// pages/_document.tsx
-
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
@@ -7,12 +5,11 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          {/* ✅ Plausible Analytics Script */}
           <script
             async
             defer
-            data-domain="regnovaai-frontend-git-c8ee04-rajeev-ranjans-projects-572f1b56.vercel.app"
-            src="https://plausible.io/js/plausible.js"
+            data-domain="www.regnovaai.com, regnovaai-frontend-git-c8ee04-rajeev-ranjans-projects-572f1b56.vercel.app, regnovaai-frontend-omhv-noxjh21dq.vercel.app"
+            src="https://plausible.io/js/script.js"
           ></script>
         </Head>
         <body>
