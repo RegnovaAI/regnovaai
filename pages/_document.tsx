@@ -5,12 +5,20 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          {/* Google Analytics */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
           <script
-            async
-            defer
-            data-domain="www.regnovaai.com, regnovaai-frontend-git-c8ee04-rajeev-ranjans-projects-572f1b56.vercel.app, regnovaai-frontend-omhv-noxjh21dq.vercel.app"
-            src="https://plausible.io/js/script.js"
-          ></script>
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-3C3TE5ZSQN', {
+                  page_path: window.location.pathname,
+                });
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
@@ -22,3 +30,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
