@@ -8,7 +8,7 @@ export default function Document() {
         <script
           async
           defer
-          data-domain="regnovaai-frontend-omhv-jnkeoae33.vercel.app"  // use the exact domain from your Plausible project
+          data-domain="regnovaai-frontend-git-c8ee04-rajeev-ranjans-projects-572f1b56.vercel.app"  // use the exact domain from your Plausible project
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
